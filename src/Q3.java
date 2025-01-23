@@ -34,15 +34,17 @@ public class Q3 {
         long current;
 
         long[] king = new long[inputs];
+        king[0] = isub2;
+        king[1] = isub1;
 
-        if (inputs >= 1){
-            king[0] = isub2;
-        //    System.out.print(isub2);
-        }
-        if(inputs >= 2){
-            king[1] = isub2;
-        //    System.out.print(", " + isub1);
-        }
+//        if (inputs >= 1){
+//            king[0] = isub2;
+//        //    System.out.print(isub2);
+//        }
+//        if(inputs >= 2){
+//            king[1] = isub2;
+//        //    System.out.print(", " + isub1);
+//        }
 
         for(int i = 2; i < inputs; i++){
             current = (3 * isub1) + (2 * isub2);
